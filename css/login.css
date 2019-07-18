@@ -33,7 +33,7 @@ h3{
 
 #container form{
 	background: #FFF;
-	width: 500px;
+	width: 400px;
 	padding: 10px;
 }
 
@@ -54,5 +54,21 @@ h3{
 	margin: 25px auto;
 	border-radius: 5px;
 	border: 1px solid #CCC;
+	text-align: center;
+}
+
+
+#container form input[type="submit"]{
+	background: #5dade2;
+	padding: 10px;
+	color: #FFF;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+}
+
+.alert{
+	font-family: 'Arial';
+	font-size: 16px;
 	text-align: center;
 }

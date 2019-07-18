@@ -4,6 +4,16 @@
 // 
 require_once("inc/config.sistema.php");
 require_once(RUTA_SISTEMA."inc/head_sistema.php");
+$alert="";
+
+if (!empty($_POST)) {
+
+	# code...
+	echo $alert ="Ha dado click en ingresar";
+} else {
+	# code...
+}
+
 ?>
 <body>
 	
@@ -25,6 +35,7 @@ require_once(RUTA_SISTEMA."inc/head_sistema.php");
 					<div class="form-group">
 						
 						<input type="text" class="form-control" id="contraseña" placeholder="Conteseña">
+						<div class="alert"></div>
 					</div>
 
 					<input type="submit" class="btn btn-primary" id="ingresar" value="INGRESAR">
