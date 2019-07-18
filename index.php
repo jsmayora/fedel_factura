@@ -7,29 +7,35 @@ require_once(RUTA_SISTEMA."inc/head_sistema.php");
 ?>
 <body>
 	
-	<di class="container">
-		<div class="row">
-			<div class="col-sm-2"></div>
-			<div class="col-sm-8">
-				
+	<div  id="container">
+		<!-- <div class="row"> -->
+			<!-- <div class="col-sm-4"></div> -->
+			<!-- <div class="col"> -->
+				<!-- <br><br> -->
 				<form action="" method="POST" role="form">
-					<legend>Form title</legend>
-
+					<h3>Iniciar Sesión</h3>
+					<!-- <div class="form-group"> -->
+						<img src="img/login.png" alt="login">
+					<!-- </div> -->
 					<div class="form-group">
-						<label for="">label</label>
-						<input type="text" class="form-control" id="" placeholder="Input field">
+						
+						<input type="text" class="form-control" id="usuario" placeholder="Usuario">
 					</div>
 
+					<div class="form-group">
+						
+						<input type="text" class="form-control" id="contraseña" placeholder="Conteseña">
+					</div>
 
-
-					<button type="submit" class="btn btn-primary">Submit</button>
+					<input type="submit" class="btn btn-primary" id="ingresar" value="INGRESAR">
 				</form>
-				<div class="col-sm-2"></div>
+				
+				<!-- </div> -->
+				<!-- <div class="col-sm-4"></div> -->
+				<!-- </div> -->
 			</div>
-		</div>
-	</di>
 
 
-	<?php include_once(RUTA_SISTEMA."");  ?>
-</body>
-</html>
+			<?php include_once(RUTA_SISTEMA."inc/script.php");  ?>
+		</body>
+		</html>

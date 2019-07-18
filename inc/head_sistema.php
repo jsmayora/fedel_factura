@@ -8,6 +8,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 	<!-- css de Bootstrap 4.3.1 -->
-	<link rel="stylesheet" type="text/css" href="<?php echo $servidor."/".$sistema;?>/bootstrap-4.3.1/dist/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="<?php// echo $servidor."/".$sistema;?>/bootstrap-4.3.1/dist/css/bootstrap.min.css"> -->
+
+	<!-- css del login -->
+	<link rel="stylesheet" type="text/css" href="<?php echo $servidor."/".$sistema;?>/css/login.css">
 
 </head>

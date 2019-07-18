@@ -7,7 +7,7 @@ header('Content-type: text/html; characterset=utf8');
 $servidor = "http://localhost";
 
 // nombre del proyecto o carpeta
-$sistema = "fedel_factura";
+$sistema = "html/fedel_factura";
 
 $nombre_sistema= "Facturación";
 
